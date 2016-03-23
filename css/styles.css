@@ -1,0 +1,691 @@
+  body {
+	margin:0;
+	padding:0;
+	background-color: #ffeee5;
+	font-size: 14px;
+	font-family: gill sans;
+	font-weight: 300;
+	color: #4a4e89;
+	min-width: 200px;
+
+}
+
+.container {
+	width: 100%;
+}
+
+header {
+	margin:0;
+	width:100%;
+	height:185px;
+/*	background-color: #bfdcd8;*/
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+header a, header a:hover {
+	text-decoration: none;
+	color: #4a4e89;
+}
+
+
+.logo { /*padding-top:50px;*/
+	padding-top:65px;
+	padding-left:10px;
+}
+
+
+/*.logo p {
+	font-size: 20px;
+	letter-spacing: 3px;
+}*/
+
+.logo img {
+	/*width:120px;*/
+	width:280px;
+	display: block;
+	margin:0 auto;
+}
+
+
+/*.bagel {
+	padding-top:10px;
+}
+*/
+
+.menu {
+	width:80px;
+	display:block;
+	margin:0 auto;
+}
+
+.nav_small {
+	visibility: hidden;
+	position: absolute;
+	top:0px;
+	left:0px;
+
+}
+
+
+nav {
+	width:95%;
+	margin:0 auto;
+	font-size: 13px;
+}
+
+nav li:nth-child(1) {
+	background-image: url('../img/dish.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:52px;
+}
+
+nav li:nth-child(2) {
+	background-image: url('../img/dish2.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:52px;
+}
+
+nav li:nth-child(3) {
+	background-image: url('../img/dish3.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:52px;
+}
+
+nav li:nth-child(4) {
+	background-image: url('../img/dish4.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:52px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow:auto;
+/*	background-color: #bfdcd8;*/
+	width:100%;
+}
+
+nav li {
+	float:left;
+	width:25%;
+}
+
+nav li a {
+	display:block;
+/*	color: #4a4e89;*/
+	color:#ffeee5;
+	text-align: center;
+	text-decoration:none;
+	padding-top:9px;
+	padding-left:2px;
+	letter-spacing: 2px;
+	line-height: 15px;
+}
+
+nav li a:hover {
+	color: #f7a67f;
+	text-decoration: none;
+}
+
+
+.contents {
+	margin:24px auto 0 auto;
+	padding-bottom:0;
+	width:90%;
+	border-radius: 5px;
+	/*border: 1px solid #4a4e89;
+	background-color: #bfdcd8;*/
+}
+
+.slogan, .slogan img, section img {
+	width: 100%;
+}
+
+
+.blog {
+	margin-top:20px;
+
+
+}
+
+
+section {
+	width:100%;
+	background-color: white;
+	height:auto;
+	overflow:auto;
+}
+
+
+
+section.two {
+	background-color: #f7a67f;
+}
+
+section h6 {
+	text-align: center;
+	letter-spacing: 3px;
+	padding-top:10px;
+}
+
+h3 { 
+	text-align: center;
+	margin-bottom:10px;
+	margin-top:5px;
+	letter-spacing: 0.8px;
+
+
+
+}
+
+section .underline {
+	width:80px;
+	display:block;
+	margin:0 auto;
+}
+
+.inside {
+	margin: 25px;
+}
+
+.inside a {
+	color:#4a4e89;
+}
+
+.inside p {
+	font-size: 14px;
+	margin-top:10px;
+	text-indent: 30px;
+}
+
+.divider {
+	margin-bottom:10px;
+
+}
+
+.divider.two {
+	margin-top: 13px;
+}
+
+.divider.three {
+	margin:0;
+}
+
+.divider.four {
+	margin-bottom: 13px;
+}
+
+
+
+.image {
+	margin-top:3px;
+}
+
+
+.ad {
+	width:100%;
+	padding:0 10px;
+}
+
+.ad a:hover {
+	text-decoration: none;
+	color:#4a4e89;
+}
+
+.ad.two a:hover {
+	color:white;
+}
+
+.ad.two a {
+	color:white;
+	font-weight: 300;
+}
+
+p {
+	letter-spacing: 0.7px;
+}
+
+
+p.one, p.two {
+	font-size: 15px;
+	font-weight: 200;
+	letter-spacing: 0.8px;
+	margin-top:5px;
+	text-indent: 0;
+
+}
+
+
+p.one {
+	margin-bottom:2px;
+
+}
+
+p.three{
+	font-size:12px;
+	margin-top:0;
+	letter-spacing: 0.3px;
+	text-indent: 0;
+	padding: 5px 7px 0 3px;
+	text-align: center;
+}
+
+.location.side>p {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.line {
+	width:100%;
+	margin: 0 auto 15px auto;
+}
+
+.line img {
+	width:100%;
+	height:13px;
+}
+
+
+footer {
+	width:90%;
+	margin:25px auto 25px auto;
+	height:70px;
+}
+
+
+
+
+footer ul {
+
+	width:160px;
+	overflow:auto;
+	margin: 4px auto 0 auto;
+}
+
+footer li {
+	float:left;
+}
+
+footer li a {
+	text-decoration: none;
+	display:block;
+
+}
+
+footer ul img {
+	width:30px;
+	margin:0 5px;
+}
+
+
+/*-Bakery-*/
+
+.first.part {
+	padding: 10px 0;
+}
+
+.part img {
+	width: 100%;
+}
+
+.side {
+	background-color: #bfdcd8;
+	height: auto;
+	padding:20px 30px;
+}
+
+.side.bottom {
+	background-color: white;
+	margin-top:25px;
+}
+
+/*이부*/
+.side a, .side a:hover {
+	text-decoration: none;
+	color:#4a4e89;
+}
+
+.side.top.bakery {
+	height:210px;
+}
+
+.side.bottom.bakery {
+	height:80px;
+}
+
+
+.side.top.catery, .side.top.location {
+	background-color: salmon; 
+	color: white;
+}
+
+.side.top.eatery {
+	height:265px;
+}
+
+.side.bottom.eatery {
+	height: 100px;
+}
+
+.side.small.location {
+	padding:13px;
+}
+
+/*.catery.lower {
+	background-color: #ffeee5;
+	border: 2px dotted salmon;
+	border-radius: 10px;
+}*/
+
+
+.a ul {
+	list-style-type: circle;
+	padding:5px 0 5px 30px;
+	font-size: 14px;
+	letter-spacing: 0.7px;
+
+}
+
+.picbox {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.picbox.bakery {
+	background-image:url('../img/croissants-569075_1920.jpg');
+	height:315px;
+
+}
+
+.picbox.catery {
+	background-image:url('../img/breakfast-690128_1280.jpg');
+	height:340px;
+}
+
+.picbox.eatery {
+	background-image:url('../img/breakfast-732231_edit.jpg');
+	height:390px;
+}
+
+
+.side.top.catery {
+	height: 340px;
+
+
+}
+
+
+.address {
+	font-size: 12px;
+	text-align: center;
+}
+
+.optionb {
+	width:100%;
+	border:0;
+	background-color: #eaeaea;
+	color:#4a4e89;
+	padding:10px 10px 0 10px;
+	height:auto;/*이부*/
+}
+
+
+.optionc {
+	width:48%;
+	border:0;
+	background-color: white;
+	color:#4a4e89;
+	padding:5px 2px 0 2px;
+	height:auto;
+	float:left;
+}
+
+.optionc.right {
+	margin-right:3px;
+}
+.catery h6, .eatery h6 {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 17px;
+	text-align: center;
+	color:#4a4e89;
+}
+
+/*이부분*/
+.eatery h6 {
+	margin-bottom:0;
+}
+
+.eatery.bottom h3 {
+	text-align: left;
+	margin-top:-5px;
+} 
+
+
+
+h4 {
+	margin-top: -5px;
+
+}
+
+h5 {
+	font-size: 17px;
+	line-height: 20px;
+}
+
+.number {
+	font-size:16px;
+}
+
+.side.location.small {
+	background-color: #eaeaea;
+	overflow: auto;
+}
+
+
+/*footer li {
+	float:left;
+	width: 16.66%;
+}
+
+footer li a {
+	text-decoration: none;
+	color:#4a4e89;
+	display:block;
+	text-align: center;
+	padding:7px 0 15px 0;
+	letter-spacing: 2px;
+
+}
+
+footer li a:hover {
+	text-decoration: none;
+	color:#f7a67f;
+}*/
+
+/*#242861*/
+
+
+
+@media (max-width: 999px) and (min-width: 992px){
+	.link {
+		height:30px;
+	}
+}
+
+@media (max-width:991px) {
+
+	
+
+	.side.top {
+		margin-top: 15px;
+
+	}
+
+	.side.bottom {
+		margin-top:15px;
+	}
+
+	
+
+	.in {
+		margin-top:15px;
+	}
+
+	.box {
+		margin-bottom:15px;
+	}
+
+	.side.top.bakery {
+		height:auto;
+	}
+
+	.side.top.eatery {
+		height:auto;
+	}
+
+	.side.bottom.eatery {
+		height: 120px;
+	}
+
+
+
+}
+
+
+@media (max-width:767px) {
+	section.one {
+		margin-bottom: 20px;
+	}
+
+
+	/*-Bakery-*/
+
+	
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:478px) {
+
+
+	header {
+		height:auto;
+		margin-top:15px;
+		margin-bottom: 20px;
+	}
+	.logo {
+		display:block;
+		margin:0 auto;
+		width:100%;
+		padding-top:30px;
+	}
+
+	.logo img {
+		width:70%;
+	}
+
+	.contents {
+		width:100%;
+		margin-top:7px;
+	}
+
+	nav {
+		visibility: hidden;
+		position: absolute;
+		top:0px;
+		left:0px;
+	}
+
+	.nav_small{
+	visibility: visible;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 1000;
+
+
+	}
+
+	.menu_s {
+	width:100%;
+	background-color: #242861;
+	height:25px;
+	border:none;
+	color:white;
+	}
+	.list {
+	min-width:100%;
+	background-color:white;
+	/*	color:yellow; ASK ASK doesnt work!!!!!!*/
+	border:none;
+	border-radius: 0;
+	text-align: center;
+	}
+
+	.color {
+	color: #ffeee5;
+
+	}
+
+
+	.blog {
+		margin-top: 10px;
+	}
+
+	section.one {
+		margin-bottom: 10px;
+	}
+
+	.line {
+		margin-top:-12px;
+		margin-bottom:15px;
+
+	}
+	.line img {
+		height:7px;
+	}
+
+	footer {
+		margin-top: 30px;
+		height: 50px;
+		width:100%;
+	}
+
+
+	.side.bottom.eatery {
+		height: auto;
+	}
+
+
+
+
+}
+
+@media (max-width:289px) {
+	.link {
+		height: 30px;
+	}
+}
+
+
